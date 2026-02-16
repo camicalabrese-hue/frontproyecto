@@ -7,8 +7,12 @@ export const metadata = {
 };
 
 async function getNovedades() {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+    console.log('DEBUG - Variable de entorno NEXT_PUBLIC_API_URL:', process.env.NEXT_PUBLIC_API_URL);
+    console.log('DEBUG - Intentando fetch a:', `${apiUrl}/api/novedades`);
+
     try {
-        const res = await fetch('http://localhost:3001/api/novedades', {
+        const res = await fetch(`${apiUrl}/api/novedades`, {
             cache: 'no-store'
         });
 
