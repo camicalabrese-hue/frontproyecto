@@ -11,7 +11,7 @@ export default function Contacto() {
     <main className="holder contacto">
       <div className="columna">
         <h2>Complete el siguiente formulario</h2>
-        <ContactForm postUrl={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'}/api/contacto`} />
+        <ContactForm postUrl="https://camiback-056c1118e855.herokuapp.com/api/contacto" />
       </div>
       <div className="columna datos">
         <h2>Otras vias de contacto</h2>
