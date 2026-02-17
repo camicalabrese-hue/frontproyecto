@@ -9,13 +9,9 @@ export default function Nosotros() {
         <main className="holder">
             <section className="historia">
                 <h2>¿Quienes somos?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, rem saepe. A
-                    enim qui facilis consectetur. Tempora dolores culpa libero a natus fugit ea ratione
-                    reprehenderit, consequuntur, debitis corrupti asperiores.</p>
+                <p>Somos una página dedicada a compartir recetas de coctelería para todos los gustos y niveles. Nuestro objetivo es acercarte ideas claras y fáciles de preparar, desde clásicos tradicionales hasta combinaciones creativas, para que puedas disfrutar y sorprender en cualquier ocasión. Creemos que preparar un buen trago es una experiencia para compartir, aprender y divertirse.
+                </p>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero blanditiis eveniet minima
-                    repudiandae. Natus commodi consequuntur eius repellat ducimus, omnis, delectus sapiente
-                    saepe quam necessitatibus exercitationem molestias ipsum voluptates iusto.</p>
             </section>
 
             <div className="staff">
@@ -27,9 +23,7 @@ export default function Nosotros() {
                         <div className="staff-info">
                             <h5>Patricia Gonzales</h5>
                             <h6>Bartender principal</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis hic
-                                laborum, error laboriosam quaerat tenetur non distinctio adipisci sequi illum dolorum libero
-                                at aliquid, nam est unde nemo possimus dolores?</p>
+                            <p>Mi nombre es Patricia y me dedio a la cocteleria hace 18 años, me gusta probar cosas nuevas e inovar.</p>
                         </div>
                     </div>
 
@@ -38,9 +32,7 @@ export default function Nosotros() {
                         <div className="staff-info">
                             <h5>Yanick Lesso</h5>
                             <h6>Bartender</h6>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea deleniti
-                                aspernatur autem ipsam officiis eius, itaque quibusdam fuga distinctio, nobis numquam
-                                molestiae, alias assumenda reprehenderit voluptates? Natus distinctio eum in!</p>
+                            <p>Mi nombre es Yanick soy bartender hace 5 años y me gusta los cocteles fuertes y en tendencia.</p>
                         </div>
                     </div>
 
@@ -49,9 +41,7 @@ export default function Nosotros() {
                         <div className="staff-info">
                             <h5>Juan Lopez</h5>
                             <h6>Bartender</h6>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam autem in
-                                ipsum, voluptas nihil corporis pariatur distinctio fugiat beatae voluptate magnam tenetur
-                                consequatur ipsa, aperiam aut iure maiores? Reiciendis, iure?</p>
+                            <p>Mi nombre es Juan y soy bartender hace 20 años.Me gustan los tragos complejos y diferentes.</p>
                         </div>
                     </div>
                 </div>
