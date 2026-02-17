@@ -27,19 +27,25 @@ export default function ContactForm({ postUrl }) {
         setMsg('');
         setSending(true);
 
-        const rawResponse = await fetch(postUrl, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        });
-        const response = await rawResponse.json();
-        setSending(false);
-        setMsg(response.message);
-        if (response.error === false) {
-            setFormData(initialForm)
+        try {
+            const rawResponse = await fetch(postUrl, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+            const response = await rawResponse.json();
+            setSending(false);
+            setMsg(response.message);
+            if (response.error === false) {
+                setFormData(initialForm)
+            }
+        } catch (error) {
+            setSending(false);
+            setMsg('Hubo un error al enviar el formulario.');
+            console.error(error);
         }
     }
 
